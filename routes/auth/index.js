@@ -44,7 +44,7 @@ router.post('/register', function (req, res, next) {
     }
 
     console.log('user registered!')
-    res.redirect('/')
+    res.redirect('/tasks')
   })
 })
 
